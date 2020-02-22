@@ -18,7 +18,7 @@ export default function CharacterCard(props) {
   `;
 
   const CardInfo = styled.div`
-    tex-align: left;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@ export default function CharacterCard(props) {
   `;
 
   const Status = styled.div`
-    tex-align: left;
+    text-align: left;
     background: green;
     height: 30px;
     vertical-align: middle;
@@ -51,5 +51,4 @@ return (
     </Card>
   </div>
 )
-
 }
